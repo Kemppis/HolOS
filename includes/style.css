@@ -1,0 +1,73 @@
+body {
+	background-color: black;
+	max-width: 100%; 
+	overflow: hidden;
+}
+
+#transit {
+	margin-top: -290px; 
+	filter: invert(100%);
+}
+
+#clock {
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	top: 0px;
+	font-family: Helvetica;
+}
+
+#date {
+	color: white;
+	position: absolute;
+	font-size: 50px;
+	top: 50px;
+	right: 0px;
+	font-family: Helvetica;
+}
+
+#day {
+	color: white;
+	position: absolute;
+	font-size: 50px;
+	right: 0px;
+	top: 0px;
+	font-family: Helvetica;
+}
+
+#temp-out-info {
+	color: white;
+	position: absolute;
+	font-size: 50px;
+	top: 65px;
+	right: 300px;
+	font-family: Helvetica;
+}
+
+#temp-out {
+	width: 350px;
+	color: white;
+	position: absolute;
+	font-size: 50px;
+	top: 100px;
+	right: -50px;
+	font-family: Helvetica;
+}
+
+#temp-in-info {
+	right: 300px;
+	top: 140px;
+	position: absolute;
+	color: white;
+	font-size: 50px;
+	font-family: Helvetica;
+}
+
+#temp-in {
+	right: 0px;
+	top: 190px;
+	position: absolute;
+	color: white;
+	font-size: 50px;
+	font-family: Helvetica;
+}
